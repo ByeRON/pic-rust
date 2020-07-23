@@ -16,7 +16,7 @@ mod tests {
 	use super::*;
 
 	#[test]
-	fn test_construct() {
+	fn test_new() {
 		let actual = Vector3d::<i32>::new(0, 1, 2);
 		assert_eq!(0, actual.x);
 		assert_eq!(1, actual.y);
